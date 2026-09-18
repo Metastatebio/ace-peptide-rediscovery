@@ -1,0 +1,11 @@
+# Patched environment for new ProteinLM analyses. It is not asserted to reproduce
+# historical scores bit-for-bit; use requirements-proteinlm.txt for the recorded runtime.
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+rdkit==2024.9.4
+torch==2.13.0
+transformers==5.17.0
+safetensors==0.8.0
+tokenizers==0.22.2
+huggingface-hub==0.36.0

@@ -31,7 +31,7 @@ The post-unblinding label files were withheld from the scoring inputs during the
 
 ## Installation for rerunning code
 
-The lightweight verification script uses the Python standard library only. The broader analysis requires the packages listed in `requirements-core.txt`. ProteinLM scenarios additionally use the pinned optional runtime in `requirements-proteinlm.txt` and require users to obtain model weights under their upstream terms.
+The lightweight verification script uses the Python standard library only. The broader analysis requires the packages listed in `requirements-core.txt`. `requirements-proteinlm.txt` records the historical optional runtime used for the reported ProteinLM scenarios. For new analyses, use the patched `requirements-proteinlm-maintained.txt` and revalidate results; both environments require users to obtain model weights under their upstream terms.
 
 ## Licensing
 
