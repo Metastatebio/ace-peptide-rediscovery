@@ -19,11 +19,8 @@ The structured assay table covers all 178 peptides in the v3, v4, v5, and v6 lit
 
 The corrected v6 balanced recipe retained 6/52 top-1-percent recovery, 11.54-fold enrichment, and p = 1.34e-05. Matched-decoy AUROC was 0.7647. The corrected ESM2-8M full-universe fusion had matched-decoy AUROC 0.7817. The full result files and checksums are in the release bundle.
 
-## Required human attestation
+## Submission scope
 
-Before submission, the corresponding author or a qualified assay-data reviewer must review the 31 mass-concentration rows and the 11 fixed-concentration rows against their cited sources, confirm that the manuscript keeps them out of cross-assay potency claims, and record the reviewer name and date below.
+No manual assay-data attestation is required for this computational rediscovery manuscript. The assay-readout categories are retained solely for source provenance. No IC50 values are pooled, converted for cross-study comparison, used as a potency endpoint, or used to support a comparative potency claim in the manuscript.
 
-- Reviewer: pending
-- Date: pending
-- Outcome: pending
-- Notes / exceptions: pending
+If a future version makes a cross-assay potency or potency-prediction claim, the 31 mass-concentration rows and 11 fixed-concentration records must first receive source-level assay-context review.

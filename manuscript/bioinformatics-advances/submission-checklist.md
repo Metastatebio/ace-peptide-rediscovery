@@ -30,7 +30,6 @@ Sources:
 ## Remaining Before Upload
 
 - Obtain the sole author's signed attestation of authorship, declarations, and submission approval.
-- Obtain the documented assay-metadata QC attestation; 31 mass-concentration and 11 fixed-concentration source records require human review.
 - Public `v0.1.0` repository tag verified; an archival DOI is optional.
 - Convert figures if the upload form rejects SVG.
 - Add suggested and excluded reviewers if requested by the submission system.

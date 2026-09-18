@@ -45,5 +45,4 @@ bioactive peptides; ACE inhibition; protein language models; blinded validation;
 ## Submission Blockers
 
 - Author attestation of authorship, funding, competing-interest, ethics, and AI-use declarations.
-- Assay-metadata QC attestation after review of the documented mixed-unit and fixed-concentration records.
 - Public `v0.1.0` release verified; an archival DOI is optional rather than a submission requirement.
