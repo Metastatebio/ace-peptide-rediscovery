@@ -38,7 +38,7 @@ bioactive peptides; ACE inhibition; protein language models; blinded validation;
 
 - Funding: This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
 - Competing interests: Oğuzcan Ünver is affiliated with Metastate Bio. This affiliation is disclosed as a potential competing interest; no other competing interests are declared.
-- Data availability: Analysis code, frozen recipes, post-unblinding evaluation labels, non-third-party derived results, and a reproducibility manifest are available at https://github.com/Metastatebio/ace-peptide-rediscovery. AHTPDB-derived training inputs are reconstructed from the cited upstream source using the included acquisition script and source manifest.
+- Data availability: Analysis code, frozen recipes, post-unblinding evaluation labels, non-third-party derived results, and a reproducibility manifest are available in the public `v0.1.0` release at https://github.com/Metastatebio/ace-peptide-rediscovery/releases/tag/v0.1.0. AHTPDB-derived training inputs are reconstructed from the cited upstream source using the included acquisition script and source manifest.
 - Ethics: Not applicable; this is a computational study based on literature-derived peptide evidence and generated analysis artifacts.
 - AI-assisted tools: Language-model tools were used to assist code implementation, artifact generation, and manuscript drafting. The author remains responsible for study design, curation, code, analysis, interpretation, and final manuscript.
 
@@ -46,4 +46,4 @@ bioactive peptides; ACE inhibition; protein language models; blinded validation;
 
 - Author attestation of authorship, funding, competing-interest, ethics, and AI-use declarations.
 - Assay-metadata QC attestation after review of the documented mixed-unit and fixed-concentration records.
-- Confirm the public `v0.1.0` release tag after repository publication; an archival DOI is optional rather than a submission requirement.
+- Public `v0.1.0` release verified; an archival DOI is optional rather than a submission requirement.

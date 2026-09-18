@@ -90,7 +90,7 @@ Language-model tools were used to assist code implementation, artifact generatio
 
 ## Data Availability
 
-Analysis code, frozen recipes, post-unblinding evaluation labels, non-third-party derived results, and a reproducibility manifest are available at https://github.com/Metastatebio/ace-peptide-rediscovery. AHTPDB-derived training inputs are not redistributed; they can be reconstructed from the cited upstream database using the included acquisition script and source manifest. Private keys were unavailable during scoring and are released only as post-unblinding evaluation artifacts.
+Analysis code, frozen recipes, post-unblinding evaluation labels, non-third-party derived results, and a reproducibility manifest are available in the public `v0.1.0` release at https://github.com/Metastatebio/ace-peptide-rediscovery/releases/tag/v0.1.0. AHTPDB-derived training inputs are not redistributed; they can be reconstructed from the cited upstream database using the included acquisition script and source manifest. Private keys were unavailable during scoring and are released only as post-unblinding evaluation artifacts.
 
 ## Funding
 

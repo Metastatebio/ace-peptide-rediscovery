@@ -313,6 +313,9 @@ def svg_grouped_bars(
     group_width = plot_width / max(1, len(labels))
     bar_gap = 5
     bar_width = max(10, (group_width - 28 - bar_gap * (len(series) - 1)) / max(1, len(series)))
+    fractional_axis = y_max <= 1.0
+    tick_format = ".2f" if fractional_axis else ".0f"
+    value_format = ".3f" if fractional_axis else ".0f"
     lines = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         '<rect width="100%" height="100%" fill="#ffffff"/>',
@@ -323,7 +326,7 @@ def svg_grouped_bars(
         value = y_max * tick / 5
         y = margin_top + plot_height - plot_height * value / y_max
         lines.append(f'<line x1="{margin_left}" y1="{y:.1f}" x2="{width - margin_right}" y2="{y:.1f}" stroke="#e5e7eb" stroke-width="1"/>')
-        lines.append(f'<text x="{margin_left - 10}" y="{y + 4:.1f}" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">{value:.0f}</text>')
+        lines.append(f'<text x="{margin_left - 10}" y="{y + 4:.1f}" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">{value:{tick_format}}</text>')
     for group_index, label in enumerate(labels):
         group_x = margin_left + group_index * group_width + 14
         for series_index, (_name, values, color) in enumerate(series):
@@ -332,7 +335,7 @@ def svg_grouped_bars(
             x = group_x + series_index * (bar_width + bar_gap)
             y = margin_top + plot_height - bar_height
             lines.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bar_width:.1f}" height="{bar_height:.1f}" fill="{color}"/>')
-            lines.append(f'<text x="{x + bar_width / 2:.1f}" y="{y - 6:.1f}" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">{value:.0f}</text>')
+            lines.append(f'<text x="{x + bar_width / 2:.1f}" y="{y - 6:.1f}" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">{value:{value_format}}</text>')
         lines.append(f'<text x="{group_x + (len(series) * (bar_width + bar_gap)) / 2 - bar_gap:.1f}" y="{height - 52}" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#26323f">{label}</text>')
     legend_x = margin_left
     for index, (name, _values, color) in enumerate(series):
@@ -373,6 +376,12 @@ def write_figures(rows: Sequence[Mapping[str, object]], panels: Sequence[Mapping
     top5 = [float(row["top_5pct_count"]) for row in selected]
     top10 = [float(row["top_10pct_count"]) for row in selected]
     auroc = [float(row["auroc_vs_matched_decoys"]) for row in selected]
+    plm_summary = PAPER_DIR / "proteinlm" / "full-universe-rank" / "ace_plm_lengthz_full_universe_summary.csv"
+    if plm_summary.exists():
+        plm_rows = read_csv_rows(plm_summary)
+        if len(plm_rows) == 1:
+            labels.append("v6 + ESM2")
+            auroc.append(float(plm_rows[0]["auroc_vs_matched_decoys"]))
     outputs = []
     top_recovery = figure_dir / "frozen-validation-recovery.svg"
     top_recovery.write_text(
@@ -393,7 +402,7 @@ def write_figures(rows: Sequence[Mapping[str, object]], panels: Sequence[Mapping
     auroc_chart = figure_dir / "frozen-validation-matched-auroc.svg"
     auroc_chart.write_text(
         svg_single_bars(
-            title="Matched-decoy discrimination",
+            title="Matched-decoy discrimination in frozen analyses",
             labels=labels,
             values=auroc,
             color="#4b5563",

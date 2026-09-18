@@ -1,31 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500">
-<rect width="100%" height="100%" fill="#ffffff"/>
-<text x="82" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#18212b">Matched-decoy discrimination</text>
-<text x="24" y="242.0" transform="rotate(-90 24 242.0)" font-family="Arial, sans-serif" font-size="14" fill="#394957">AUROC</text>
-<line x1="82" y1="408.0" x2="944" y2="408.0" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="412.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">0</text>
-<line x1="82" y1="341.6" x2="944" y2="341.6" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="345.6" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">0</text>
-<line x1="82" y1="275.2" x2="944" y2="275.2" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="279.2" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">0</text>
-<line x1="82" y1="208.8" x2="944" y2="208.8" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="212.8" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">1</text>
-<line x1="82" y1="142.4" x2="944" y2="142.4" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="146.4" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">1</text>
-<line x1="82" y1="76.0" x2="944" y2="76.0" stroke="#e5e7eb" stroke-width="1"/>
-<text x="72" y="80.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#526170">1</text>
-<rect x="96.0" y="156.5" width="187.5" height="251.5" fill="#4b5563"/>
-<text x="189.8" y="150.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">1</text>
-<text x="187.2" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#26323f">v4 broad</text>
-<rect x="311.5" y="174.8" width="187.5" height="233.2" fill="#4b5563"/>
-<text x="405.2" y="168.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">1</text>
-<text x="402.8" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#26323f">v5 broad</text>
-<rect x="527.0" y="180.0" width="187.5" height="228.0" fill="#4b5563"/>
-<text x="620.8" y="174.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">1</text>
-<text x="618.2" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#26323f">v6 broad</text>
-<rect x="742.5" y="154.3" width="187.5" height="253.7" fill="#4b5563"/>
-<text x="836.2" y="148.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#26323f">1</text>
-<text x="833.8" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#26323f">v6 balanced</text>
-<rect x="82" y="472" width="14" height="14" fill="#4b5563"/>
-<text x="102" y="484" font-family="Arial, sans-serif" font-size="13" fill="#26323f">AUROC</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Matched-decoy AUROC in frozen ACE rediscovery analyses</title>
+  <desc id="desc">Bar chart of matched-decoy AUROC for v4 broad, v5 broad, v6 broad, v6 balanced, and v6 balanced plus ESM2 fusion. Values are 0.7575, 0.7023, 0.6868, 0.7647, and 0.7817.</desc>
+  <rect width="1100" height="560" fill="#ffffff"/>
+  <text x="92" y="44" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#18212b">Matched-decoy discrimination in frozen analyses</text>
+  <text x="28" y="288" transform="rotate(-90 28 288)" font-family="Arial, sans-serif" font-size="15" fill="#394957">AUROC</text>
+  <g stroke="#dbe3ea" stroke-width="1" font-family="Arial, sans-serif" font-size="13" fill="#526170">
+    <line x1="92" y1="450" x2="1050" y2="450"/><text x="78" y="455" text-anchor="end">0.00</text>
+    <line x1="92" y1="382" x2="1050" y2="382"/><text x="78" y="387" text-anchor="end">0.20</text>
+    <line x1="92" y1="314" x2="1050" y2="314"/><text x="78" y="319" text-anchor="end">0.40</text>
+    <line x1="92" y1="246" x2="1050" y2="246"/><text x="78" y="251" text-anchor="end">0.60</text>
+    <line x1="92" y1="178" x2="1050" y2="178"/><text x="78" y="183" text-anchor="end">0.80</text>
+    <line x1="92" y1="110" x2="1050" y2="110"/><text x="78" y="115" text-anchor="end">1.00</text>
+  </g>
+  <g fill="#475569">
+    <rect x="132" y="192.5" width="128" height="257.5" rx="2"/><rect x="322" y="211.2" width="128" height="238.8" rx="2"/>
+    <rect x="512" y="216.5" width="128" height="233.5" rx="2"/><rect x="702" y="190.0" width="128" height="260.0" rx="2"/>
+  </g>
+  <rect x="892" y="184.2" width="128" height="265.8" rx="2" fill="#2563eb"/>
+  <g font-family="Arial, sans-serif" fill="#18212b" text-anchor="middle">
+    <text x="196" y="180" font-size="14" font-weight="700">0.7575</text><text x="386" y="199" font-size="14" font-weight="700">0.7023</text>
+    <text x="576" y="204" font-size="14" font-weight="700">0.6868</text><text x="766" y="178" font-size="14" font-weight="700">0.7647</text>
+    <text x="956" y="172" font-size="14" font-weight="700">0.7817</text>
+    <text x="196" y="482" font-size="14">v4 broad</text><text x="386" y="482" font-size="14">v5 broad</text>
+    <text x="576" y="482" font-size="14">v6 broad</text><text x="766" y="482" font-size="14">v6 balanced</text>
+    <text x="956" y="482" font-size="14">v6 + ESM2</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#526170"><rect x="92" y="516" width="14" height="14" fill="#475569"/><text x="113" y="528">Frozen recipe</text><rect x="240" y="516" width="14" height="14" fill="#2563eb"/><text x="261" y="528">Frozen ESM2 fusion</text></g>
 </svg>
