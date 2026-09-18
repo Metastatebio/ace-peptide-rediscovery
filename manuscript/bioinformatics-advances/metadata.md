@@ -32,7 +32,7 @@ Food-derived angiotensin-converting enzyme (ACE)-inhibitory peptides are a usefu
 
 ## Keywords
 
-bioactive peptides; ACE inhibition; protein language models; ESM2; blinded validation; peptide prioritization; food peptidomics
+bioactive peptides; ACE inhibition; protein language models; blinded validation; peptide prioritization
 
 ## Declarations
 
@@ -46,4 +46,4 @@ bioactive peptides; ACE inhibition; protein language models; ESM2; blinded valid
 
 - Author attestation of authorship, funding, competing-interest, ethics, and AI-use declarations.
 - Assay-metadata QC attestation after review of the documented mixed-unit and fixed-concentration records.
-- Public release tag and archival DOI, if an archive is selected before final submission.
+- Confirm the public `v0.1.0` release tag after repository publication; an archival DOI is optional rather than a submission requirement.

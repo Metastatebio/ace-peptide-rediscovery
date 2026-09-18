@@ -6,7 +6,7 @@ Affiliation: Metastate Bio Inc, Wilmington, Delaware, USA
 
 Corresponding author: Oğuzcan Ünver; can@metastate.bio; ORCID: 0009-0007-2023-5084
 
-Keywords: bioactive peptides; ACE inhibition; protein language models; ESM2; blinded validation; peptide prioritization; food peptidomics
+Keywords: bioactive peptides; ACE inhibition; protein language models; blinded validation; peptide prioritization
 
 ## Abstract
 
@@ -64,6 +64,10 @@ The validated claim is computational prioritization and rediscovery. The study d
 
 Known-positive panels were curated from primary-literature reports of ACE-inhibitory peptide sequences. Rows record sequence, target, activity class, source material, generation context, evidence type, reference URL, and notes. v4, v5, and v6 panels were curated after the relevant recipe freeze and were exact-sequence-audited before scoring.
 
+### Development Training Data And Features
+
+Development-only ACE training positives were derived from the AHTPDB IC50 export (Kumar et al., 2015). The acquisition script retained canonical peptides of length 2--16 residues with a positive, parseable reported IC50, deduplicated sequences by the lowest parsed IC50, and excluded evaluation-panel sequences. The final v6 rank component was a length-stratified L2-regularized logistic-regression score trained on AHTPDB positives together with the pre-v6 expanded and H12 development panels and generated background negatives. Its feature families were frozen ACE-heuristic scores, amino-acid composition, N- and C-terminal categories, edge n-grams, internal dipeptide and tripeptide frequencies, and simple motif flags. AHTPDB data were used only for development; all reported v4--v6 positive panels were exact-sequence-excluded from every training panel.
+
 ### Candidate Universe Construction
 
 Validation universes were built with `scripts/ace_build_blinded_universe.py`. Each universe contained hidden known positives, matched decoys, random peptide background, and food-protein digestome background. The public scoring table exposed only candidate identifiers, peptide sequences, and sequence lengths during ranking.
@@ -74,7 +78,7 @@ Frozen recipes specify a gate component, gate percentage, rank component, requir
 
 ### ProteinLM Scoring And Fusion
 
-ProteinLM scenarios were run with `scripts/ace_protein_lm_fusion_scenario.py`. ESM2 masked pseudo-log-likelihood was computed by masking each residue position, scoring the observed amino acid under the model, and averaging log-likelihood across peptide positions. Raw pseudo-log-likelihood and length-calibrated z scores were evaluated. Fusion weights were selected inside parent-grouped cross-validation with `scripts/ace_plm_cross_validated_fusion_audit.py`, keeping each literature positive and its composition-shuffled or length-matched decoys in the same fold. The full-universe ESM2-8M run then used the cross-validated 0.65 ACE / 0.35 length-calibrated PLM weight without refitting.
+ProteinLM scenarios used ESM2 (Lin et al., 2023) and were run with `scripts/ace_protein_lm_fusion_scenario.py`. Masked pseudo-log-likelihood was computed by masking each residue position, scoring the observed amino acid under the model, and averaging log-likelihood across peptide positions. Raw pseudo-log-likelihood and length-calibrated z scores were evaluated. Fusion weights were selected inside parent-grouped cross-validation with `scripts/ace_plm_cross_validated_fusion_audit.py`, keeping each literature positive and its composition-shuffled or length-matched decoys in the same fold. The full-universe ESM2-8M run then used the cross-validated 0.65 ACE / 0.35 length-calibrated PLM weight without refitting.
 
 ### Statistical Analysis
 
@@ -106,15 +110,17 @@ Not applicable.
 
 ## References
 
-1. Mooney C, Haslam NJ, Pollastri G, Shields DC. Towards the improved discovery and design of functional peptides: common features of diverse classes permit generalized prediction of bioactivity. PLOS ONE. 2012;7:e45012. https://doi.org/10.1371/journal.pone.0045012
-2. Minkiewicz P, Iwaniak A, Darewicz M. BIOPEP-UWM database of bioactive peptides: current opportunities. International Journal of Molecular Sciences. 2019;20:5978. https://pmc.ncbi.nlm.nih.gov/articles/PMC6928608/
-3. Yang et al. ACE-inhibitory peptides from Larimichthys crocea protein. Molecules. 2024. https://doi.org/10.3390/molecules29051134
-4. Zhang et al. ACE-inhibitory peptides from Flammulina velutipes. Foods. 2025. https://doi.org/10.3390/foods14152619
-5. Takifugu flavidus ACE-inhibitory peptide study. Marine Drugs. 2023. https://doi.org/10.3390/md21100522
-6. Broccoli protein ACE-inhibitory peptide study. Journal of Agricultural and Food Chemistry. 2019. https://doi.org/10.1021/acs.jafc.9b01137
-7. Cangkuk fermented beef ACE-inhibitory peptide study. Animal Bioscience. 2024. https://doi.org/10.5713/ab.23.0433
-8. Porcine liver and placenta ACE-inhibitory peptide study. Molecules. 2025. https://doi.org/10.3390/molecules30030754
-9. Tenebrio molitor protein ACE-inhibitory peptide study. Food Science and Human Wellness. 2026. https://doi.org/10.26599/FSHW.2025.9250609
+1. Kumar R, Chaudhary K, Sharma M, Nagpal G, Chauhan JS, Singh S, Gautam A, Raghava GPS. AHTPDB: a comprehensive platform for analysis and presentation of antihypertensive peptides. Nucleic Acids Research. 2015;43:D956--D962. https://doi.org/10.1093/nar/gku1141
+2. Lin Z, Akin H, Rao R, Hie B, Zhu Z, Lu W, et al. Evolutionary-scale prediction of atomic-level protein structure with a language model. Science. 2023;379:1123--1130. https://doi.org/10.1126/science.ade2574
+3. Mooney C, Haslam NJ, Pollastri G, Shields DC. Towards the improved discovery and design of functional peptides: common features of diverse classes permit generalized prediction of bioactivity. PLOS ONE. 2012;7:e45012. https://doi.org/10.1371/journal.pone.0045012
+4. Minkiewicz P, Iwaniak A, Darewicz M. BIOPEP-UWM database of bioactive peptides: current opportunities. International Journal of Molecular Sciences. 2019;20:5978. https://pmc.ncbi.nlm.nih.gov/articles/PMC6928608/
+5. Yang et al. ACE-inhibitory peptides from Larimichthys crocea protein. Molecules. 2024. https://doi.org/10.3390/molecules29051134
+6. Zhang et al. ACE-inhibitory peptides from Flammulina velutipes. Foods. 2025. https://doi.org/10.3390/foods14152619
+7. Takifugu flavidus ACE-inhibitory peptide study. Marine Drugs. 2023. https://doi.org/10.3390/md21100522
+8. Broccoli protein ACE-inhibitory peptide study. Journal of Agricultural and Food Chemistry. 2019. https://doi.org/10.1021/acs.jafc.9b01137
+9. Cangkuk fermented beef ACE-inhibitory peptide study. Animal Bioscience. 2024. https://doi.org/10.5713/ab.23.0433
+10. Porcine liver and placenta ACE-inhibitory peptide study. Molecules. 2025. https://doi.org/10.3390/molecules30030754
+11. Tenebrio molitor protein ACE-inhibitory peptide study. Food Science and Human Wellness. 2026. https://doi.org/10.26599/FSHW.2025.9250609
 
 ## Figure Legends
 

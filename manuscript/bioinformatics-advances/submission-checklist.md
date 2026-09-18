@@ -1,6 +1,6 @@
 # Bioinformatics Advances Submission Checklist
 
-Checked: 2026-08-30
+Checked: 2026-09-18
 
 Sources:
 
@@ -11,7 +11,7 @@ Sources:
 
 - Article type: Original Article.
 - Journal fit: bioinformatics/computational biology; sequence analysis; machine learning and AI; proteomics/metabolomics; cheminformatics.
-- Title: 7 words, ProteinLM-specific, no therapeutic overclaim.
+- Title: ProteinLM-specific, no therapeutic overclaim.
 - Abstract: prepared in single-paragraph form.
 - Keywords: prepared.
 - Main sections: Introduction, Results, Discussion, Methods, Data availability, Funding, Competing interests, Author contributions, Acknowledgements, References.
@@ -29,8 +29,8 @@ Sources:
 
 ## Remaining Before Upload
 
-- Add corresponding author email.
-- Add ORCID if required.
-- Decide whether request-only data/code access is acceptable for first submission or whether to attach a repository/archive link.
+- Obtain the sole author's signed attestation of authorship, declarations, and submission approval.
+- Obtain the documented assay-metadata QC attestation; 31 mass-concentration and 11 fixed-concentration source records require human review.
+- Confirm that the public `v0.1.0` repository tag is visible; an archival DOI is optional.
 - Convert figures if the upload form rejects SVG.
 - Add suggested and excluded reviewers if requested by the submission system.
