@@ -1,0 +1,212 @@
+{
+  "blinding": {
+    "private_key_columns": [
+      "candidate_id",
+      "sequence",
+      "label",
+      "origin",
+      "provenance"
+    ],
+    "public_columns": [
+      "candidate_id",
+      "sequence",
+      "length"
+    ],
+    "scoring_must_not_read": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/blinding-key.private.csv"
+  },
+  "date": "2026-08-28",
+  "digest_counts": {
+    "collagen:chymotrypsin": 77,
+    "collagen:pepsin_like": 95,
+    "collagen:thermolysin_like": 520,
+    "collagen:trypsin": 103,
+    "egg:chymotrypsin": 137,
+    "egg:pepsin_like": 160,
+    "egg:thermolysin_like": 502,
+    "egg:trypsin": 53,
+    "fish:chymotrypsin": 166,
+    "fish:pepsin_like": 178,
+    "fish:thermolysin_like": 754,
+    "fish:trypsin": 91,
+    "milk:chymotrypsin": 485,
+    "milk:pepsin_like": 570,
+    "milk:thermolysin_like": 1319,
+    "milk:trypsin": 215
+  },
+  "key_rows": 16305,
+  "known_positive_sequences": [
+    "IPP",
+    "LKP",
+    "LKPNM",
+    "VPP"
+  ],
+  "known_positive_source": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-seed.csv",
+  "label_counts_private": {
+    "digestome_background": 3981,
+    "digestome_known_positive": 2,
+    "known_positive": 2,
+    "matched_decoy": 320,
+    "random_background": 12000
+  },
+  "length_counts_public": {
+    "10": 1556,
+    "11": 1429,
+    "12": 1453,
+    "2": 386,
+    "3": 1775,
+    "4": 1690,
+    "5": 1758,
+    "6": 1697,
+    "7": 1569,
+    "8": 1528,
+    "9": 1464
+  },
+  "public_rows": 16305,
+  "seed": 20260828,
+  "sha256": {
+    "private_key_payload": "a770e9f49005481893b0ea8dce8bf78995bb0afb03c4a4e6eae8d2b6c32c9706",
+    "public_universe_payload": "fd4505e9f901061e987db1dd9e0e83f3a894d369e8e2672bd3c4ec62462e73ce"
+  },
+  "source_status": [
+    {
+      "accession": "P02666",
+      "label": "bovine beta-casein",
+      "organism": "Bos taurus",
+      "sequence_length": 224,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02666/entry",
+      "unique_public_candidates_added": 290
+    },
+    {
+      "accession": "P02662",
+      "label": "bovine alpha-S1-casein",
+      "organism": "Bos taurus",
+      "sequence_length": 214,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02662/entry",
+      "unique_public_candidates_added": 262
+    },
+    {
+      "accession": "P02663",
+      "label": "bovine alpha-S2-casein",
+      "organism": "Bos taurus",
+      "sequence_length": 222,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02663/entry",
+      "unique_public_candidates_added": 239
+    },
+    {
+      "accession": "P02668",
+      "label": "bovine kappa-casein",
+      "organism": "Bos taurus",
+      "sequence_length": 190,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02668/entry",
+      "unique_public_candidates_added": 196
+    },
+    {
+      "accession": "P02754",
+      "label": "bovine beta-lactoglobulin",
+      "organism": "Bos taurus",
+      "sequence_length": 178,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02754/entry",
+      "unique_public_candidates_added": 224
+    },
+    {
+      "accession": "P02769",
+      "label": "bovine serum albumin",
+      "organism": "Bos taurus",
+      "sequence_length": 607,
+      "source_class": "milk",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02769/entry",
+      "unique_public_candidates_added": 692
+    },
+    {
+      "accession": "P01012",
+      "label": "chicken ovalbumin",
+      "organism": "Gallus gallus",
+      "sequence_length": 386,
+      "source_class": "egg",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P01012/entry",
+      "unique_public_candidates_added": 476
+    },
+    {
+      "accession": "P00698",
+      "label": "chicken lysozyme C",
+      "organism": "Gallus gallus",
+      "sequence_length": 147,
+      "source_class": "egg",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P00698/entry",
+      "unique_public_candidates_added": 149
+    },
+    {
+      "accession": "P02453",
+      "label": "bovine collagen alpha-1(I)",
+      "organism": "Bos taurus",
+      "sequence_length": 1463,
+      "source_class": "collagen",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/P02453/entry",
+      "unique_public_candidates_added": 663
+    },
+    {
+      "accession": "Q9DGI8",
+      "label": "skipjack tuna myoglobin",
+      "organism": "Katsuwonus pelamis",
+      "sequence_length": 146,
+      "source_class": "fish",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/Q9DGI8/entry",
+      "unique_public_candidates_added": 188
+    },
+    {
+      "accession": "A9ZTF1",
+      "label": "skipjack tuna parvalbumin",
+      "organism": "Katsuwonus pelamis",
+      "sequence_length": 108,
+      "source_class": "fish",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/A9ZTF1/entry",
+      "unique_public_candidates_added": 126
+    },
+    {
+      "accession": "Q9IB34",
+      "label": "skipjack tuna myosin light chain 2",
+      "organism": "Katsuwonus pelamis",
+      "sequence_length": 170,
+      "source_class": "fish",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/Q9IB34/entry",
+      "unique_public_candidates_added": 174
+    },
+    {
+      "accession": "Q9IB35",
+      "label": "skipjack tuna myosin light chain 3",
+      "organism": "Katsuwonus pelamis",
+      "sequence_length": 172,
+      "source_class": "fish",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/Q9IB35/entry",
+      "unique_public_candidates_added": 171
+    },
+    {
+      "accession": "Q9IB36",
+      "label": "skipjack tuna myosin light chain 1",
+      "organism": "Katsuwonus pelamis",
+      "sequence_length": 198,
+      "source_class": "fish",
+      "status": "ok",
+      "uniprot_url": "https://www.uniprot.org/uniprotkb/Q9IB36/entry",
+      "unique_public_candidates_added": 133
+    }
+  ]
+}

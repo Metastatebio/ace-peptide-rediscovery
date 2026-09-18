@@ -1,0 +1,53 @@
+rank,sequence,label,origin,ace_rank,ace_score,plm_mean_log_likelihood,plm_length_z,fused_score,provenance
+45,MFGPQ,known_positive,blinded_known_positive_spike,195,0.9445103195,-2.79697266,1.5676507642,0.7577688731,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+133,SPGTAF,known_positive,blinded_known_positive_spike,227,0.934251001,-3.03497505,0.7873767464,0.7381486421,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+162,IYSP,known_positive,blinded_known_positive_spike,149,0.9626574556,-3.19090819,0.2769180537,0.7329224118,monkfish swim bladder collagen hydrolysate; https://doi.org/10.3389/fnut.2022.957778
+215,YPGLQ,known_positive,blinded_known_positive_spike,129,0.9676410441,-3.28633957,-0.0616794845,0.7264527786,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+301,LHWPR,known_positive,blinded_known_positive_spike,288,0.902149817,-3.23320465,0.115231399,0.7162065801,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+440,IPPAYTK,known_positive,blinded_known_positive_spike,417,0.8210032479,-3.26272774,-0.1260320074,0.6932444296,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+1403,LVLPGELAK,known_positive,blinded_known_positive_spike,1507,-1.0119777973,-2.82690451,1.7409364066,0.3377000341,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+1513,LLRP,known_positive,blinded_known_positive_spike,2639,-1.0325479885,-2.6523633,1.8068350543,0.3347121758,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+1558,LVLPGE,known_positive,blinded_known_positive_spike,1370,-1.0093828943,-2.8377978,1.5196006634,0.3333273261,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+1633,VLGA,known_positive,blinded_known_positive_spike,3586,-1.0496640374,-2.64090705,1.8393803666,0.3317291055,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+1736,PGLPQ,known_positive,blinded_known_positive_spike,1073,-1.0037978382,-2.87884007,1.2950760462,0.3295314253,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+1972,LPGP,digestome_known_positive,collagen:P02453:thermolysin_like,1646,-1.0145039611,-2.86590505,1.2001982451,0.3250961934,bovine collagen alpha-1(I); sp|P02453|CO1A1_BOVIN Collagen alpha-1(I) chain OS=Bos taurus OX=9913 GN=COL1A1 PE=1 SV=3
+2837,TVLL,known_positive,blinded_known_positive_spike,7034,-1.1112543177,-2.71338773,1.6334747372,0.3137927662,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+2959,MFLG,known_positive,blinded_known_positive_spike,13289,-1.2218212438,-2.35345817,2.6559751138,0.3126330841,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+3400,PGAR,known_positive,blinded_known_positive_spike,8355,-1.1345225207,-2.71392965,1.631935232,0.3087166792,Salmo salar protein hydrolysate; https://doi.org/10.1002/jsfa.8908
+3504,SLPEW,known_positive,blinded_known_positive_spike,1098,-1.0042446426,-3.16879578,0.3296785102,0.3079098,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+3756,IVG,known_positive,blinded_known_positive_spike,2074,-1.022374594,-3.11737347,0.4187998301,0.3059684737,Cangkuk fermented beef; https://doi.org/10.5713/ab.23.0433
+4331,YVLL,known_positive,blinded_known_positive_spike,7602,-1.1212730491,-2.86273527,1.2092030661,0.3021622077,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+5049,NLGPR,known_positive,blinded_known_positive_spike,1949,-1.0200890172,-3.25566711,0.0404434131,0.2980277578,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+5056,LGV,known_positive,blinded_known_positive_spike,8434,-1.1359144885,-2.82332548,1.1650622037,0.2980055171,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+5612,EAPLNPKANR,known_positive,blinded_known_positive_spike,5453,-1.0832087436,-3.1031189,0.5159429304,0.2949528443,Cangkuk fermented beef; https://doi.org/10.5713/ab.23.0433
+6119,SDPPLVFVG,known_positive,blinded_known_positive_spike,10492,-1.1723290543,-2.93134054,1.2515188004,0.2920428612,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+6447,IGPR,known_positive,blinded_known_positive_spike,1241,-1.0069598392,-3.44007921,-0.4309356213,0.2903625748,Salmo salar protein hydrolysate; https://doi.org/10.1002/jsfa.8908
+7055,VGINYW,known_positive,blinded_known_positive_spike,2233,-1.0252444536,-3.34841951,-0.3766091103,0.28761194,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+7469,VTLL,known_positive,blinded_known_positive_spike,14837,-1.248887285,-2.68659544,1.7095872038,0.2856674387,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+8321,RVR,known_positive,blinded_known_positive_spike,11489,-1.1899606468,-2.90659269,0.9537389235,0.281583047,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+8399,LAK,digestome_known_positive,milk:P02769:trypsin,8217,-1.1320822808,-3.13423634,0.3760036682,0.2812427801,bovine serum albumin; sp|P02769|ALBU_BOVIN Albumin OS=Bos taurus OX=9913 GN=ALB PE=1 SV=4
+8661,RSTGALAL,known_positive,blinded_known_positive_spike,20597,-1.3495557732,-2.6701386,2.4331127208,0.2799865143,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+9033,VLSGF,known_positive,blinded_known_positive_spike,15623,-1.262669485,-2.81313896,1.5138256259,0.2783163445,peony seed protein hydrolysate; https://www.sciencedirect.com/science/article/pii/S1756464622002213
+9294,TFQGPPHGIQVER,known_positive,blinded_known_positive_spike,7820,-1.1250537025,-3.16020731,0.1206842377,0.2770730512,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+10033,AVKVL,known_positive,blinded_known_positive_spike,13493,-1.225378495,-2.9834383,0.9468198469,0.2737544263,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+10221,GVLY,known_positive,blinded_known_positive_spike,9834,-1.1607121376,-3.19022298,0.278864622,0.2728734104,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+10309,YLVR,known_positive,blinded_known_positive_spike,9565,-1.1559347665,-3.2120564,0.2168394853,0.2725256405,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+10878,RFLR,known_positive,blinded_known_positive_spike,14811,-1.2484404805,-2.93371844,1.007551615,0.2701114428,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+11177,LSFR,known_positive,blinded_known_positive_spike,14205,-1.2378202815,-2.99197984,0.8420406093,0.2687223447,monkfish swim bladder collagen hydrolysate; https://doi.org/10.3389/fnut.2022.957778
+11348,TLVGR,known_positive,blinded_known_positive_spike,14272,-1.2389888471,-3.02114449,0.8212783878,0.2680062184,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+11828,TLFGL,known_positive,blinded_known_positive_spike,16851,-1.28415047,-2.9181881,1.1640681374,0.2658635332,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+12631,GWA,known_positive,blinded_known_positive_spike,16914,-1.2852331116,-2.88118776,1.0182139208,0.2623769339,pearl oyster meat hydrolysate; https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/
+14913,FVLNSPY,known_positive,blinded_known_positive_spike,15420,-1.2591637882,-3.15438298,0.3283453271,0.2526441129,tree bean seed protein hydrolysate; https://doi.org/10.1007/s00217-025-05009-0
+15894,TFTGA,known_positive,blinded_known_positive_spike,18861,-1.3192246224,-3.05100708,0.7218519244,0.2484038608,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+16474,SAAL,known_positive,blinded_known_positive_spike,26023,-1.4441408465,-2.64317656,1.8329330639,0.2461099932,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+16801,ICY,digestome_known_positive,fish:Q9IB34:thermolysin_like,15506,-1.2606588648,-3.28639857,-0.0101678099,0.2447725622,skipjack tuna myosin light chain 2; tr|Q9IB34|Q9IB34_KATPE Myosin light chain 2 OS=Katsuwonus pelamis OX=8226 GN=mlc2 PE=2 SV=1
+18943,VNDYLNW,known_positive,blinded_known_positive_spike,16737,-1.2821398498,-3.27865928,-0.1928458587,0.2360450075,Torreya grandis protein hydrolysate; https://doi.org/10.3390/nu15102374
+19953,FWG,known_positive,blinded_known_positive_spike,16862,-1.2843395027,-3.42781385,-0.3690646774,0.2316393549,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+20005,HLHT,known_positive,blinded_known_positive_spike,19597,-1.3320788438,-3.25813913,0.0859260677,0.2314397981,pearl oyster meat hydrolysate; https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/
+21405,AEYLCEAC,known_positive,blinded_known_positive_spike,18792,-1.318038872,-3.29383993,-0.3221665473,0.2253830205,oyster hydrolysate; https://doi.org/10.3389/fnut.2022.981163
+21874,LDQWL,known_positive,blinded_known_positive_spike,20727,-1.3518241652,-3.29105835,-0.0773904998,0.2235200172,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+22321,PW,known_positive,blinded_known_positive_spike,21392,-1.363441082,-3.30586481,-0.0499717687,0.2216141968,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+29523,FFNDA,known_positive,blinded_known_positive_spike,26712,-1.4560842742,-3.41242752,-0.4814849653,0.1919190843,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+42240,NDRP,known_positive,blinded_known_positive_spike,39233,-1.6729734839,-3.54342461,-0.7245228177,0.1395046114,soybean protein hydrolysate; https://doi.org/10.3390/foods11172667
+48554,HWS,known_positive,blinded_known_positive_spike,44215,-1.7591208262,-3.72197978,-1.1156263701,0.1121180081,peony seed protein hydrolysate; https://www.sciencedirect.com/science/article/pii/S1756464622002213
+51228,TLRFALHGME,known_positive,blinded_known_positive_spike,57401,-1.9864068327,-3.10270844,0.5181128438,0.0992959745,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522

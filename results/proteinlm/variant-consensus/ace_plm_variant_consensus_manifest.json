@@ -1,0 +1,20 @@
+{
+  "claim_boundary": "Computational candidate prioritization only; no wet-lab potency or receptor-contact claim.",
+  "date": "2026-08-30",
+  "inputs": [
+    {
+      "model_id": "esm2_8m",
+      "path": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-30-ace-protein-lm-fusion-001/ace_plm_masked_variant_candidates.csv"
+    },
+    {
+      "model_id": "esm2_35m",
+      "path": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-30-ace-protein-lm-fusion-002-esm35m/ace_plm_masked_variant_candidates.csv"
+    },
+    {
+      "model_id": "esm2_150m",
+      "path": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-30-ace-protein-lm-fusion-003-esm150m/ace_plm_masked_variant_candidates.csv"
+    }
+  ],
+  "ranking": "checkpoint agreement desc, mean model rank asc, mean parent delta desc",
+  "rows": 80
+}

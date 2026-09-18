@@ -1,0 +1,36 @@
+{
+  "assay_readout_counts": {
+    "IC50": 138,
+    "activity_reported": 29,
+    "fixed_concentration_inhibition": 11
+  },
+  "claim_boundary": "Derived metadata table. Parsed fields should be manually checked before final journal submission.",
+  "date": "2026-08-30",
+  "evidence_strength_counts": {
+    "fixed_concentration_activity": 11,
+    "reported_activity": 29,
+    "reported_ic50": 10,
+    "synthesized_peptide_ic50": 128
+  },
+  "panel_counts": {
+    "v3_primary_development": 51,
+    "v4_frozen_validation": 31,
+    "v5_failure_mode": 44,
+    "v6_frozen_validation": 52
+  },
+  "panel_paths": [
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-v3-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v4-independent-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v5-failure-mode-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v6-independent-primary-panel.csv"
+  ],
+  "panel_source_material_counts": {
+    "v3_primary_development": 9,
+    "v4_frozen_validation": 5,
+    "v5_failure_mode": 11,
+    "v6_frozen_validation": 18
+  },
+  "row_count": 178,
+  "rows_with_mass_concentration_ic50": 31,
+  "rows_with_numeric_ic50_um": 107
+}

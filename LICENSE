@@ -1,0 +1,13 @@
+Copyright 2026 Oğuzcan Ünver and Metastate Bio Inc.
+
+Source code in this repository is licensed under the Apache License, Version 2.0. The
+complete license text is in LICENSES/Apache-2.0.txt.
+
+Manuscripts, protocols, figures, and aggregate result tables are licensed under the
+Creative Commons Attribution 4.0 International license (CC BY 4.0). The complete license
+text is in LICENSES/CC-BY-4.0.txt.
+
+Third-party datasets are not included and are not relicensed. Their identifiers, retrieval
+locations, checksums, and terms are documented in docs/source-data.md. The licenses in this
+repository apply only to material the copyright holders are authorized to license.
+

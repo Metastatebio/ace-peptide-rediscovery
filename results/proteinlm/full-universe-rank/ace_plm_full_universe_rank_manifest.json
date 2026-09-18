@@ -1,0 +1,40 @@
+{
+  "ace_weight": 0.65,
+  "claim_boundary": "Uses the 0.65 ACE / 0.35 length-z PLM weight selected by parent-grouped CV. The full-universe rank is suitable for candidate prioritization and must be validated on a new frozen panel or wet lab before potency claims.",
+  "date": "2026-09-18",
+  "digestome_shortlist_rows": 200,
+  "label_counts": {
+    "digestome_background": 3980,
+    "digestome_known_positive": 3,
+    "known_positive": 49,
+    "matched_decoy": 4160,
+    "random_background": 50000
+  },
+  "plm_length_z_weight": 0.35,
+  "scored_panel": "/tmp/ace-qc.jXpMGi/no-zero-plm/ace_plm_scored_panel.csv",
+  "shortlist_n": 200,
+  "summary": {
+    "ace_weight": 0.65,
+    "auroc_vs_all_negatives": 0.8129223889285809,
+    "auroc_vs_matched_decoys": 0.7817492603550296,
+    "average_precision_vs_all_negatives": 0.00501492690447622,
+    "average_precision_vs_matched_decoys": 0.04158601393099855,
+    "best_positive_rank": 45,
+    "fusion_id": "ace_0.65_plm_length_z_0.35",
+    "mean_positive_rank": 10903.192307692309,
+    "median_positive_rank": 8360.0,
+    "plm_length_z_weight": 0.35,
+    "positive_count": 52,
+    "top_0_5pct_count": 4,
+    "top_100_count": 1,
+    "top_10pct_count": 21,
+    "top_1pct_count": 6,
+    "top_1pct_enrichment_over_random": 11.536875495638382,
+    "top_1pct_fraction": 0.11538461538461539,
+    "top_1pct_hypergeom_p": 1.3439959693947684e-05,
+    "top_2pct_count": 6,
+    "top_5pct_count": 13,
+    "total_candidates": 58192
+  },
+  "v6_summary": "/tmp/ace-qc.jXpMGi/no-zero-frozen-rerank/frozen-rerank-summary.csv"
+}

@@ -1,0 +1,9 @@
+subset_id,positive_count,top_1pct_count,top_1pct_fraction,top_1pct_enrichment_over_random,top_1pct_hypergeom_p,top_100_count,mean_rank,median_rank,best_rank
+all_literature_positives,4,4,1.0,99.420732,9.868450246137669e-09,3,31.25,8.5,4
+primary_four_anchors,4,4,1.0,99.420732,9.868450246137669e-09,3,31.25,8.5,4
+reported_antihypertensive,2,2,1.0,99.420732,0.00010055796655720925,2,7.5,7.5,4
+reported_ic50_uM_le_30,0,0,,,,0,,,
+reported_ic50_uM_le_10,0,0,,,,0,,,
+short_len_le_5,4,4,1.0,99.420732,9.868450246137669e-09,3,31.25,8.5,4
+short_len_le_5_ic50_uM_le_30,0,0,,,,0,,,
+naturally_released_digestome_positive,2,2,1.0,99.420732,0.00010055796655720925,2,7.5,7.5,4

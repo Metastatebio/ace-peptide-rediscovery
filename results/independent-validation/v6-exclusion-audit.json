@@ -1,0 +1,22 @@
+{
+  "candidate_panel": "docs/publication-engine/papers/01-ace-rediscovery/known-positive-v6-independent-primary-panel.csv",
+  "candidate_sequence_count": 52,
+  "date": "2026-08-29",
+  "exclude_panels": [
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-seed.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-expanded-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-holdout.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-v3-primary-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-v4-independent-primary-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-v5-failure-mode-primary-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-training-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le10-training-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le30-training-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le100-training-panel.csv",
+    "docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le100-min3-training-panel.csv"
+  ],
+  "overlap_row_count": 0,
+  "overlap_sequence_count": 0,
+  "overlaps": {},
+  "status": "pass"
+}

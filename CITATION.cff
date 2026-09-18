@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and the tagged repository release."
+title: "ProteinLM-Augmented Blinded Rediscovery of Food-Derived ACE-Inhibitory Peptides"
+type: software
+authors:
+  - family-names: "Ünver"
+    given-names: "Oğuzcan"
+    orcid: "https://orcid.org/0009-0007-2023-5084"
+    affiliation: "Metastate Bio Inc"
+repository-code: "https://github.com/Metastatebio/ace-peptide-rediscovery"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-09-18"

@@ -1,0 +1,5 @@
+panel_id,panel_path,peptide_count,reference_count,source_material_count,length_le_5_count,length_gt_5_count,cterminal_proline_count,non_cterminal_proline_count
+v3,/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-v3-primary-panel.csv,51,8,9,32,19,4,47
+v4,/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v4-independent-primary-panel.csv,31,5,5,18,13,4,27
+v5,/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v5-failure-mode-primary-panel.csv,44,11,11,26,18,2,42
+v6,/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v6-independent-primary-panel.csv,52,18,18,39,13,4,48

@@ -1,0 +1,28 @@
+{
+  "recipe_id": "ace_v4_freeze_early_enrichment_v1",
+  "created_date": "2026-08-29",
+  "objective": "Early top-1-percent enrichment of independent primary-literature ACE-inhibitory peptides.",
+  "selection_source": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-model-iteration-001/model-selection-summary.md",
+  "development_recipe_id": "gate4.85__lenrank__ml__expanded-v2-plus-h12__logreg_l2_c0_05__rank__mode__ace_no_exact_proline_motif",
+  "include_length_stratified_components": true,
+  "gate_component": "lenrank:ml:expanded-v2-plus-h12:logreg_l2_c0_05",
+  "gate_percent": 4.85,
+  "rank_component": "mode:ace_no_exact_proline_motif",
+  "required_model_dir_names": [
+    "expanded-v2-plus-h12"
+  ],
+  "required_baseline_modes": [
+    "ace_no_exact_proline_motif"
+  ],
+  "fusion_components": [],
+  "development_readout": {
+    "panel": "v3 primary-literature development stress set",
+    "candidate_count": 58114,
+    "positive_count": 51,
+    "top_1pct_count": 9,
+    "top_10pct_count": 25,
+    "matched_decoy_auroc": 0.7977,
+    "best_positive_rank": 10
+  },
+  "claim_boundary": "Frozen before v4 curation. Apply once to an exact-sequence-excluded independent validation panel; do not retune on v4."
+}

@@ -1,0 +1,20 @@
+{
+  "candidate_count": 16305,
+  "claim_boundary": "Sequence-only pilot score. No labels, PubMed evidence, or private blinding key were read.",
+  "date": "2026-08-28",
+  "features": [
+    "length preference favoring short ACE-like peptides",
+    "C-terminal proline/hydrophobic/aromatic anchor",
+    "penultimate proline",
+    "antepenultimate hydrophobic/basic anchor",
+    "N-terminal hydrophobic residue",
+    "second-position basic/proline",
+    "third-position proline",
+    "hydrophobic, proline, and charge balance",
+    "acidic, cysteine, and extreme-charge penalties"
+  ],
+  "label_sources_read": [],
+  "ranked_candidates": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/ace-ranked-candidates.csv",
+  "universe": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/blinded-candidate-universe.csv",
+  "universe_sha256": "f7b0df180e06077524de1ae34d47bdb7c987c107295abbef37fe47c17fc832b4"
+}

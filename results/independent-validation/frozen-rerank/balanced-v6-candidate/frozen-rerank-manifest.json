@@ -1,0 +1,89 @@
+{
+  "baseline_sweep_dir": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v6-independent-validation-001/score-mode-sweep",
+  "claim_boundary": "Frozen application only. Current labels were not used to select gate/rank components, gate percent, or fusion weights.",
+  "components": [
+    "fusion:v5dev_mode_dirichlet_1353",
+    "lenrank:ml:ahtpdb-plus-expanded-plus-h12:logreg_l2_c0_05",
+    "lenrank:mode:ace_no_exact_proline_motif",
+    "lenrank:mode:ace_pharmacophore_zero_label",
+    "lenrank:mode:generic_zero_shot",
+    "lenrank:mode:literature_sar",
+    "lenrank:mode:no_position_priors",
+    "lenrank:mode:oral_stability_zero_shot",
+    "ml:ahtpdb-plus-expanded-plus-h12:logreg_l2_c0_05",
+    "mode:ace_no_exact_proline_motif",
+    "mode:ace_pharmacophore_zero_label",
+    "mode:generic_zero_shot",
+    "mode:literature_sar",
+    "mode:no_position_priors",
+    "mode:oral_stability_zero_shot"
+  ],
+  "date": "2026-09-18",
+  "gate_count": 873,
+  "label_counts": {
+    "digestome_background": 3980,
+    "digestome_known_positive": 3,
+    "known_positive": 49,
+    "matched_decoy": 4160,
+    "random_background": 50000
+  },
+  "model_dirs": [
+    "/tmp/ace-qc.jXpMGi/model-scores/ahtpdb-plus-expanded-plus-h12"
+  ],
+  "ranked_sha256": "7aa455e26f4c54e0b2ea38af0aaedcdff1ef147d6ca0a745bec4d0e2efdd5ef1",
+  "recipe": {
+    "claim_boundary": "Candidate recipe only. v5 was used for selection, so this recipe requires a newly curated exact-sequence-excluded v6 holdout before any validation claim.",
+    "created_date": "2026-08-29",
+    "development_readout": {
+      "all_negative_auroc": 0.7671303315400145,
+      "best_positive_rank": 159,
+      "candidate_count": 57547,
+      "matched_decoy_auroc": 0.730572055785124,
+      "panel": "v5 failure-mode development panel",
+      "positive_count": 44,
+      "top_100_count": 0,
+      "top_10pct_count": 17,
+      "top_10pct_hypergeom_p": 4.7084429235021197e-07,
+      "top_1pct_count": 8,
+      "top_1pct_hypergeom_p": 1.2393374426891785e-08
+    },
+    "development_recipe_id": "gate1.5__fusion__fusion-search-v5-dev-001__dirichlet__mode__1353__rank__lenrank__ml__ahtpdb-plus-expanded-plus-h12__logreg_l2_c0_05",
+    "fusion_components": [
+      {
+        "component_id": "fusion:v5dev_mode_dirichlet_1353",
+        "source_fusion_dir": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v5-failure-mode-validation-001/fusion-search-v5-dev-001",
+        "source_fusion_id": "dirichlet__mode__1353",
+        "weights": {
+          "mode:ace_no_exact_proline_motif": 0.04228863,
+          "mode:ace_pharmacophore_zero_label": 0.00032622,
+          "mode:generic_zero_shot": 0.78288413,
+          "mode:literature_sar": 0.00297556,
+          "mode:no_position_priors": 0.1537413,
+          "mode:oral_stability_zero_shot": 0.01778416
+        }
+      }
+    ],
+    "gate_component": "fusion:v5dev_mode_dirichlet_1353",
+    "gate_percent": 1.5,
+    "include_length_stratified_components": true,
+    "objective": "Balanced early enrichment with stronger matched-decoy discrimination after v5 failure-mode development.",
+    "rank_component": "lenrank:ml:ahtpdb-plus-expanded-plus-h12:logreg_l2_c0_05",
+    "recipe_id": "ace_v6_candidate_from_v5_balanced_v1",
+    "required_baseline_modes": [
+      "generic_zero_shot",
+      "no_position_priors",
+      "ace_no_exact_proline_motif",
+      "oral_stability_zero_shot",
+      "literature_sar",
+      "ace_pharmacophore_zero_label"
+    ],
+    "required_model_dir_names": [
+      "ahtpdb-plus-expanded-plus-h12"
+    ],
+    "selection_source": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v5-failure-mode-validation-001/two-stage-rerank-v5-dev-001/two-stage-rerank-report.md",
+    "status": "frozen_after_v5_development_before_v6_curation"
+  },
+  "recipe_path": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/frozen-recipes/2026-08-29-v6-freeze-001/balanced-v6-candidate.recipe.json",
+  "recipe_sha256": "3082dfdc67d9f8c602816cef892a48c64a7f575d2863bbcbb011594378f2f278",
+  "summary_sha256": "3e94da27e20f49ab404b00a810b5983e46bfcb3c509a58f15084ded8fb81d342"
+}

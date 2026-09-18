@@ -1,0 +1,9 @@
+{
+  "baseline_id": "peptideranker_style_mooney2012_composition_v1",
+  "claim_boundary": "Local PeptideRanker-style comparator, not official PeptideRanker server output.",
+  "date": "2026-08-30",
+  "eval_dir": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v6-independent-validation-001",
+  "feature_policy": "Length and amino-acid composition only; no ACE target, ACE labels, or holdout labels.",
+  "literature_reference": "https://doi.org/10.1371/journal.pone.0045012",
+  "script": "/home/openclaw/.openclaw/workspace/peptide-lab-github/scripts/ace_run_peptideranker_style_baseline.py"
+}

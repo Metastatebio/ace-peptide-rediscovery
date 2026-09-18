@@ -1,0 +1,45 @@
+{
+  "candidate_panel": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v6-independent-primary-panel.csv",
+  "date": "2026-08-30",
+  "distant_count": 3,
+  "exact_overlap_count": 0,
+  "exclude_panels": [
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-seed.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-expanded-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-holdout.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-postfreeze-v3-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v4-independent-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-v5-failure-mode-primary-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-training-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le10-training-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le30-training-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le100-training-panel.csv",
+    "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/known-positive-ahtpdb-ic50-le100-min3-training-panel.csv"
+  ],
+  "high_similarity_neighbor_count_identity_ge_0_8": 0,
+  "mean_nearest_prior_identity": 0.6006,
+  "median_nearest_prior_identity": 0.6,
+  "neighborhood_class_counts": {
+    "distant_from_prior_positive_panels": 3,
+    "shared_cterm2_motif": 29,
+    "shared_cterm3_motif": 3,
+    "single_edit_neighbor": 17
+  },
+  "positive_count": 52,
+  "prior_sequence_count": 1356,
+  "rank_file": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v6-independent-validation-001/frozen-rerank/balanced-v6-candidate/frozen-rerank-positive-ranks.csv",
+  "shared_cterm2_only_count": 29,
+  "shared_cterm3_only_count": 3,
+  "single_edit_neighbor_count": 17,
+  "top_1pct_count": 6,
+  "top_1pct_distant_count": 0,
+  "top_1pct_high_similarity_neighbor_count_identity_ge_0_8": 0,
+  "top_1pct_neighborhood_class_counts": {
+    "shared_cterm2_motif": 5,
+    "single_edit_neighbor": 1
+  },
+  "top_1pct_rank_threshold": 582,
+  "top_1pct_shared_cterm3_or_cterm2_count": 5,
+  "top_1pct_single_edit_neighbor_count": 1,
+  "universe_manifest": "/home/openclaw/.openclaw/workspace/peptide-lab-github/docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v6-independent-validation-001/universe-manifest.json"
+}

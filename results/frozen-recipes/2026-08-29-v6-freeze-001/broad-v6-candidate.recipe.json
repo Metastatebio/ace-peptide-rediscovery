@@ -1,0 +1,52 @@
+{
+  "recipe_id": "ace_v6_candidate_from_v5_broad_shortlist_v1",
+  "created_date": "2026-08-29",
+  "status": "frozen_after_v5_development_before_v6_curation",
+  "objective": "Broad top-10-percent recovery after v5 failure-mode development.",
+  "selection_source": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v5-failure-mode-validation-001/two-stage-rerank-v5-dev-001/two-stage-rerank-report.md",
+  "development_recipe_id": "gate14.5__ml__ahtpdb-le100-min3-physchem-xgb-plus-expanded-plus-h12__xgb_depth3_spw30_n350__rank__fusion__fusion-search-v5-dev-001__dirichlet__mode__1353",
+  "include_length_stratified_components": false,
+  "gate_component": "ml:ahtpdb-le100-min3-physchem-xgb-plus-expanded-plus-h12:xgb_depth3_spw30_n350",
+  "gate_percent": 14.5,
+  "rank_component": "fusion:v5dev_mode_dirichlet_1353",
+  "required_model_dir_names": [
+    "ahtpdb-le100-min3-physchem-xgb-plus-expanded-plus-h12"
+  ],
+  "required_baseline_modes": [
+    "generic_zero_shot",
+    "no_position_priors",
+    "ace_no_exact_proline_motif",
+    "oral_stability_zero_shot",
+    "literature_sar",
+    "ace_pharmacophore_zero_label"
+  ],
+  "fusion_components": [
+    {
+      "component_id": "fusion:v5dev_mode_dirichlet_1353",
+      "source_fusion_dir": "docs/publication-engine/papers/01-ace-rediscovery/experiments/2026-08-29-v5-failure-mode-validation-001/fusion-search-v5-dev-001",
+      "source_fusion_id": "dirichlet__mode__1353",
+      "weights": {
+        "mode:generic_zero_shot": 0.78288413,
+        "mode:no_position_priors": 0.1537413,
+        "mode:ace_no_exact_proline_motif": 0.04228863,
+        "mode:oral_stability_zero_shot": 0.01778416,
+        "mode:literature_sar": 0.00297556,
+        "mode:ace_pharmacophore_zero_label": 0.00032622
+      }
+    }
+  ],
+  "development_readout": {
+    "panel": "v5 failure-mode development panel",
+    "candidate_count": 57547,
+    "positive_count": 44,
+    "top_1pct_count": 8,
+    "top_1pct_hypergeom_p": 1.2393374426891785e-08,
+    "top_10pct_count": 20,
+    "top_10pct_hypergeom_p": 1.5721500251008238e-09,
+    "top_100_count": 1,
+    "matched_decoy_auroc": 0.6313145661157025,
+    "all_negative_auroc": 0.7369965282443762,
+    "best_positive_rank": 64
+  },
+  "claim_boundary": "Candidate recipe only. v5 was used for selection, so this recipe requires a newly curated exact-sequence-excluded v6 holdout before any validation claim."
+}

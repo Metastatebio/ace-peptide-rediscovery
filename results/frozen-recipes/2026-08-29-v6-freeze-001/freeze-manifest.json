@@ -1,0 +1,28 @@
+{
+  "freeze_id": "ace_v6_candidate_freeze_2026_08_29_001",
+  "created_date": "2026-08-29",
+  "status": "candidate_recipes_frozen_after_v5_development_before_v6_curation",
+  "recipes": [
+    "broad-v6-candidate.recipe.json",
+    "balanced-v6-candidate.recipe.json"
+  ],
+  "selection_basis": "The v4 frozen broad recipe passed broad top-10 validation but v5 exposed weak top-rank generalization. v5 was then converted into development data and used to select candidate recipes for a future v6 exact-sequence-excluded holdout.",
+  "v6_panel_exclusion_policy": [
+    "Exclude exact sequences present in known-positive-seed.csv.",
+    "Exclude exact sequences present in known-positive-expanded-panel.csv.",
+    "Exclude exact sequences present in known-positive-postfreeze-holdout.csv.",
+    "Exclude exact sequences present in known-positive-postfreeze-v3-primary-panel.csv.",
+    "Exclude exact sequences present in known-positive-v4-independent-primary-panel.csv.",
+    "Exclude exact sequences present in known-positive-v5-failure-mode-primary-panel.csv.",
+    "Exclude exact sequences present in every AHTPDB-derived training panel used by any candidate recipe.",
+    "Exclude sequences used during any v5 recipe selection run."
+  ],
+  "frozen_scripts_sha256": {
+    "scripts/ace_apply_frozen_rerank_recipe.py": "92ecbc7ec5e12e3eec11380d9d88f684199419839f4541d76dd9256ac5df99f0",
+    "scripts/ace_train_rank_fusion_model.py": "fc96eba3ef25c0392575622c10e1dc217e0c11a68287bb8e07f0e4d74403bec8",
+    "scripts/ace_rank_fusion_search.py": "7b2aea879ce88cac1eecc07f2ad092466d00b612412f6fa865f95d04aae2079d",
+    "scripts/ace_two_stage_rerank_search.py": "7ff31454649c24a158040dd9f72ca4af2d375da3e13c3ecc423d176dbf932f19",
+    "scripts/ace_rediscovery_common.py": "2c9c0d5c04e47672336187e23a0f80f1a0f13e0a8f70ac6cc62d18b665ea548e"
+  },
+  "claim_boundary": "No validation claim is attached to these recipes until v6 is curated and run without tuning."
+}

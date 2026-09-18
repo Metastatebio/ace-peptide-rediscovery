@@ -1,0 +1,5 @@
+sequence,target,activity_class,source_material,generation_context,evidence_type,reference_url,notes
+VPP,ACE,ACE inhibitory and antihypertensive peptide,sour milk or milk casein,fermentation,literature_positive,https://pubmed.ncbi.nlm.nih.gov/7673515/,Reported with IPP as antihypertensive sour-milk peptide in spontaneously hypertensive rats.
+IPP,ACE,ACE inhibitory and antihypertensive peptide,sour milk or milk casein,fermentation,literature_positive,https://pubmed.ncbi.nlm.nih.gov/7673515/,Reported with VPP as antihypertensive sour-milk peptide in spontaneously hypertensive rats.
+LKPNM,ACE,prodrug-type ACE inhibitory peptide,dried bonito muscle,thermolysin digestion,literature_positive,https://pubmed.ncbi.nlm.nih.gov/10604535/,Reported IC50 2.4 uM and hydrolyzed by ACE to LKP.
+LKP,ACE,ACE inhibitory peptide,dried bonito muscle,ACE hydrolysis product of LKPNM,literature_positive,https://pubmed.ncbi.nlm.nih.gov/10604535/,Reported IC50 0.32 uM as the more active ACE-generated product.

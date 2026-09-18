@@ -1,0 +1,37 @@
+{
+  "freeze_id": "ace_v4_freeze_2026_08_29_001",
+  "created_date": "2026-08-29",
+  "status": "frozen_before_v4_curation",
+  "recipes": [
+    "early-enrichment-v1.recipe.json",
+    "broad-shortlist-v1.recipe.json"
+  ],
+  "selection_basis": "v3 primary-literature panel was treated as development data after model iteration. These frozen recipes must be evaluated on a newly curated v4 panel only once.",
+  "v4_panel_exclusion_policy": [
+    "Exclude exact sequences present in known-positive-seed.csv.",
+    "Exclude exact sequences present in known-positive-expanded-panel.csv.",
+    "Exclude exact sequences present in known-positive-postfreeze-holdout.csv.",
+    "Exclude exact sequences present in known-positive-postfreeze-v3-primary-panel.csv.",
+    "Exclude exact sequences present in every AHTPDB-derived training panel used by the broad-shortlist recipe.",
+    "Exclude sequences used during any v3 recipe selection run."
+  ],
+  "minimum_v4_evidence_fields": [
+    "sequence",
+    "source_paper_doi_or_pmid",
+    "source_paper_url",
+    "food_or_protein_source",
+    "assay_type",
+    "ic50_um",
+    "substrate",
+    "measurement_context",
+    "curation_note"
+  ],
+  "frozen_scripts_sha256": {
+    "scripts/ace_apply_frozen_rerank_recipe.py": "92ecbc7ec5e12e3eec11380d9d88f684199419839f4541d76dd9256ac5df99f0",
+    "scripts/ace_train_rank_fusion_model.py": "fc96eba3ef25c0392575622c10e1dc217e0c11a68287bb8e07f0e4d74403bec8",
+    "scripts/ace_rank_fusion_search.py": "d00deee76481e9d8c2e078e6461b59335ed94d6e2c3fd2b901edb7779645ccbd",
+    "scripts/ace_two_stage_rerank_search.py": "fbf90315525fd6ccc3d4878ee5d3486085d70b5e980e39cda799f0a849d0463b",
+    "scripts/ace_rediscovery_common.py": "2c9c0d5c04e47672336187e23a0f80f1a0f13e0a8f70ac6cc62d18b665ea548e"
+  },
+  "claim_boundary": "A paper claim is allowed only if frozen recipes enrich exact-sequence-excluded v4 positives. Do not claim novel discovery, clinical efficacy, or mechanistic proof from this dry-lab validation alone."
+}

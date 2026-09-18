@@ -1,0 +1,82 @@
+sequence,target,activity_class,source_material,generation_context,evidence_type,reference_url,notes
+VPP,ACE,ACE inhibitory and antihypertensive peptide,sour milk or milk casein,fermentation,literature_positive,https://pubmed.ncbi.nlm.nih.gov/7673515/,Original sour milk antihypertensive peptide.
+IPP,ACE,ACE inhibitory and antihypertensive peptide,sour milk or milk casein,fermentation,literature_positive,https://pubmed.ncbi.nlm.nih.gov/7673515/,Original sour milk antihypertensive peptide.
+LKPNM,ACE,prodrug-type ACE inhibitory peptide,dried bonito muscle,thermolysin digestion,literature_positive,https://pubmed.ncbi.nlm.nih.gov/10604535/,Prodrug-type ACE inhibitory peptide hydrolyzed to LKP.
+LKP,ACE,ACE inhibitory peptide,dried bonito muscle,ACE hydrolysis product,literature_positive,https://pubmed.ncbi.nlm.nih.gov/10604535/,ACE-generated active product from LKPNM.
+AHEPVK,ACE,ACE inhibitory peptide,Agaricus bisporus,flavourzyme,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 63 uM.
+GPL,ACE,ACE inhibitory peptide,Alaskan pollack or bovine protein,protease hydrolysis,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 around 2.6 uM.
+FGASTRGA,ACE,ACE inhibitory peptide,Antarctic krill,alcalase pepsin pancreatin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 14.7 uM.
+LGP,ACE,ACE inhibitory peptide,Antarctic krill,alcalase pepsin pancreatin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.72 uM.
+VECYGPNRPQF,ACE,ACE inhibitory peptide,Atlantic salmon,pepsin and trypsin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 29.6 uM.
+VLAQYK,ACE,ACE inhibitory peptide,beef,thermolysin and proteinase A,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 23.2 ug per mL.
+EVMAGNLYPG,ACE,ACE inhibitory peptide,blue mussel,salt fermentation,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 19.34 ug per mL.
+IWHHT,ACE,ACE inhibitory peptide,bonito or animal muscle,thermolysin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported in bonito table and later stability papers.
+IY,ACE,ACE inhibitory peptide,bonito,thermolysin boiling water extract,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 3.7 uM.
+LRP,ACE,ACE inhibitory peptide,bonito,autolysis,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 1.0 uM.
+LIWKL,ACE,ACE inhibitory peptide,bullfrog muscle,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.47 uM.
+YPK,ACE,ACE inhibitory peptide,casein,trypsin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 10.5 uM.
+GPP,ACE,ACE inhibitory peptide,chicken collagen,pepsin and pancreatin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 6.25 uM.
+GAAELPCSADWW,ACE,ACE inhibitory peptide,chicken egg white,pepsin and pancreatin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.95 uM.
+VSV,ACE,ACE inhibitory peptide,chicken egg white,pepsin and pancreatin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.15 uM.
+GPPP,ACE,ACE inhibitory peptide,chicken leg bone,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.86 uM.
+LYPVK,ACE,ACE inhibitory peptide,chicken muscle,skeletal muscle actomyosin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 4.5 uM.
+PSGQYY,ACE,ACE inhibitory peptide,chicken muscle,thermolysin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.1 uM.
+AY,ACE,ACE inhibitory peptide,cuttlefish byproduct,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 14.2 uM.
+AVF,ACE,ACE inhibitory peptide,defatted canola meal,alcalase and flavourzyme,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 2123 uM.
+VYAP,ACE,ACE inhibitory peptide,egg,thermolysin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 6.1 uM.
+AHSY,ACE,ACE inhibitory peptide,egg white,alkaline protease thermolysin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 11.6 uM.
+VW,ACE,ACE inhibitory peptide,fish sauce,fermentation,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 3.3 uM.
+RVPSL,ACE,ACE inhibitory and antihypertensive peptide,egg white,hydrolysate,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/24456305/,Reported antihypertensive effect in SHR model.
+VAW,ACE,ACE inhibitory peptide,egg white,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 2.86 uM.
+FY,ACE,ACE inhibitory peptide,egg white,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 3.74 uM.
+VAP,ACE,ACE inhibitory peptide,egg white,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 5.34 uM.
+KYTFAVTTVKTWV,ACE,ACE inhibitory peptide,fertilized egg,egg processing,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 2.6 uM.
+YN,ACE,ACE inhibitory peptide,gelatin,collagenase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 51 uM.
+LSMGSASLSP,ACE,ACE inhibitory peptide,grass carp,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 190 uM.
+YAN,ACE,ACE inhibitory peptide,hazelnut,microfluidic reactor,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 17 uM.
+SPRCR,ACE,ACE inhibitory peptide,hydrolyzed amaranth grain,albumin 1 and globulin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 41 uM.
+FESNFNTQATNR,ACE,ACE inhibitory peptide,jellyfish,autolysis,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 30 ug per mL.
+VEGY,ACE,ACE inhibitory peptide,lizard fish muscle,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 128.4 uM.
+KLPAGTLF,ACE,ACE inhibitory peptide,marine Chlorella ellipsoidea,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 13.4 uM.
+AFKDEDTEEVPFR,ACE,ACE inhibitory peptide,microalgae Nannochloropsis oculata,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 80.2 uM.
+VVYPWTQRF,ACE,ACE inhibitory peptide,novel shark meat,protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 66 uM.
+RLPSEFDLSAFLRA,ACE,ACE inhibitory peptide,novel shark meat,protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 460 uM.
+ITTNP,ACE,ACE inhibitory peptide,pea,enzyme hydrolysis,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 549 uM.
+LGFPTTKTYFPHF,ACE,ACE inhibitory peptide,Phascolosoma esculenta,water soluble hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 4.92 uM.
+KRQKYDI,ACE,ACE inhibitory peptide,pine nut,protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 26.2 uM.
+RMLGQTPTK,ACE,ACE inhibitory peptide,pinto bean,in vitro gastrointestinal digestion,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/26398778/,Reported from Phaseolus vulgaris digestion study.
+KVNGPAMSPNAN,ACE,ACE inhibitory peptide,porcine hemoglobin,peptic hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 63.9 uM.
+VWP,ACE,ACE inhibitory peptide,prawn muscle,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 4.5 uM.
+TQVY,ACE,ACE inhibitory peptide,rapeseed protein,thermolysin digest,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 18.2 uM.
+QFYAV,ACE,ACE inhibitory peptide,rice wine,concentrates,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 340 ug per mL.
+FNVPLYE,ACE,ACE inhibitory peptide,salmon,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 7.72 uM.
+AP,ACE,ACE inhibitory peptide,salmon skin,alcalase and papain,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 60 ug per mL.
+KW,ACE,ACE inhibitory peptide,sardine,alkaline protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 1.63 uM.
+VIY,ACE,ACE inhibitory peptide,sea bream,protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 7.5 uM.
+MEGAQEAQGD,ACE,ACE inhibitory peptide,sea cucumber,bromelain and alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 15.9 uM.
+EDPGA,ACE,ACE inhibitory peptide,sea cucumber,bromelain and alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 14.2 ug per mL.
+TFPHGP,ACE,ACE inhibitory peptide,seaweed pipefish,alcalase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 620 ug per mL.
+LKY,ACE,ACE inhibitory peptide,sesame,thermolysin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 0.78 uM.
+FE,ACE,ACE inhibitory peptide,shark,protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 1.45 uM.
+DP,ACE,ACE inhibitory peptide,shrimp,Lactobacillus fermentum fermentation,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 2.15 uM.
+APPPKK,ACE,ACE inhibitory peptide,silkworm albumin,acid protease,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 47 ug per mL.
+LAIPVNKP,ACE,ACE inhibitory peptide,soybean,acid proteinase,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 70 uM.
+WL,ACE,ACE inhibitory peptide,soybean,acid proteinase or homogenization,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 65 uM and 29.9 uM in separate soybean reports.
+HHL,ACE,ACE inhibitory and antihypertensive peptide,Korean soybean paste,fermentation,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/11368624/,Reported in vivo antihypertensive activity.
+LVQGS,ACE,ACE inhibitory peptide,fermented soybean extract,fermentation,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 43.7 uM.
+VLIVP,ACE,ACE inhibitory peptide,soybean,protease P,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 1.69 uM.
+LRIPVA,ACE,ACE inhibitory peptide,spinach rubisco,pepsin pancreatin,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/12903950/,Reported antihypertensive ACE inhibitory spinach peptide.
+IQP,ACE,ACE inhibitory and antihypertensive peptide,Spirulina platensis,alcalase,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/20469945/,Reported antihypertensive peptide from Spirulina.
+MLLCS,ACE,ACE inhibitory peptide,Styela plicata,protamex,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 24.7 uM.
+FVNPQAGS,ACE,ACE inhibitory peptide,sunflower,pepsin and pancreatin,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/15080631/,Reported sunflower ACE inhibitory peptide.
+GEP,ACE,ACE inhibitory peptide,Tricholoma giganteum,water extraction,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 40 ug per mL.
+WPEAAELMMEVDP,ACE,ACE inhibitory peptide,tuna,pepsin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 21.6 uM.
+YNKL,ACE,ACE inhibitory and antihypertensive peptide,wakame,peptic digest,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/11020047/,Reported antihypertensive peptide from wakame.
+IW,ACE,ACE inhibitory peptide,wakame,protease S Amano,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 1.5 uM.
+WPERPPQIP,ACE,ACE inhibitory peptide,walnut protein,hydrolysate,review_table_positive,https://pubmed.ncbi.nlm.nih.gov/23530608/,Reported walnut ACE inhibitory peptide.
+LPGRPPIKPWPL,ACE,ACE inhibitory peptide,walnut protein,hydrolysate,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 128.98 ug per mL.
+MIFPGAGGPEL,ACE,ACE inhibitory peptide,yellowfin sole,alpha chymotrypsin,review_table_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC5446464/,Reported IC50 28.7 ug per mL.
+PFPGPIPN,ACE,ACE inhibitory peptide,Qula casein,protease hydrolysis and synthesis,literature_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC9101964/,Reported IC50 12.79 uM in dairy review.
+KYIPIQ,ACE,ACE inhibitory peptide,Qula or yak milk casein,protease hydrolysis and synthesis,literature_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC9101964/,Reported IC50 7.28 uM in dairy review.
+LPLPLL,ACE,ACE inhibitory peptide,Qula casein,protease hydrolysis and synthesis,literature_positive,https://pmc.ncbi.nlm.nih.gov/articles/PMC9101964/,Reported IC50 10.46 uM in dairy review.
+YQKFPQY,ACE,ACE inhibitory peptide,yak milk casein,casein-derived,literature_positive,https://pubmed.ncbi.nlm.nih.gov/16987434/,Reported yak milk casein bioactive peptide.

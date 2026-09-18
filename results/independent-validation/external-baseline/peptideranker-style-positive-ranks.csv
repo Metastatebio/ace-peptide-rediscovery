@@ -1,0 +1,53 @@
+baseline_id,rank,sequence,score,label,origin,provenance
+peptideranker_style_mooney2012_composition_v1,391,SDPPLVFVG,0.866587672,known_positive,blinded_known_positive_spike,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+peptideranker_style_mooney2012_composition_v1,3882,TFQGPPHGIQVER,0.7752728571,known_positive,blinded_known_positive_spike,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+peptideranker_style_mooney2012_composition_v1,5128,TLRFALHGME,0.7625704762,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,7983,RSTGALAL,0.7400634524,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,8727,LVLPGELAK,0.7345737037,known_positive,blinded_known_positive_spike,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+peptideranker_style_mooney2012_composition_v1,10495,LLRP,0.723697381,known_positive,blinded_known_positive_spike,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+peptideranker_style_mooney2012_composition_v1,11704,VNDYLNW,0.7184686395,known_positive,blinded_known_positive_spike,Torreya grandis protein hydrolysate; https://doi.org/10.3390/nu15102374
+peptideranker_style_mooney2012_composition_v1,11969,LDQWL,0.7178938095,known_positive,blinded_known_positive_spike,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+peptideranker_style_mooney2012_composition_v1,13877,LVLPGE,0.7080406349,known_positive,blinded_known_positive_spike,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+peptideranker_style_mooney2012_composition_v1,13959,NLGPR,0.7079890476,known_positive,blinded_known_positive_spike,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+peptideranker_style_mooney2012_composition_v1,14498,TLVGR,0.7055128571,known_positive,blinded_known_positive_spike,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+peptideranker_style_mooney2012_composition_v1,15154,IPPAYTK,0.7018427891,known_positive,blinded_known_positive_spike,broccoli protein hydrolysate; https://doi.org/10.1021/acs.jafc.9b01137
+peptideranker_style_mooney2012_composition_v1,16502,YPGLQ,0.6968461905,known_positive,blinded_known_positive_spike,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+peptideranker_style_mooney2012_composition_v1,17340,SLPEW,0.6925128571,known_positive,blinded_known_positive_spike,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+peptideranker_style_mooney2012_composition_v1,19832,IYSP,0.6819890476,known_positive,blinded_known_positive_spike,monkfish swim bladder collagen hydrolysate; https://doi.org/10.3389/fnut.2022.957778
+peptideranker_style_mooney2012_composition_v1,20216,LHWPR,0.6816795238,known_positive,blinded_known_positive_spike,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+peptideranker_style_mooney2012_composition_v1,20439,LSFR,0.681577381,known_positive,blinded_known_positive_spike,monkfish swim bladder collagen hydrolysate; https://doi.org/10.3389/fnut.2022.957778
+peptideranker_style_mooney2012_composition_v1,21856,FFNDA,0.6757738095,known_positive,blinded_known_positive_spike,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+peptideranker_style_mooney2012_composition_v1,23381,FVLNSPY,0.6692048299,known_positive,blinded_known_positive_spike,tree bean seed protein hydrolysate; https://doi.org/10.1007/s00217-025-05009-0
+peptideranker_style_mooney2012_composition_v1,23674,VGINYW,0.6685763492,known_positive,blinded_known_positive_spike,alpha-lactalbumin hydrolysate; https://doi.org/10.1016/j.lwt.2021.112984
+peptideranker_style_mooney2012_composition_v1,23733,AVKVL,0.66837,known_positive,blinded_known_positive_spike,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+peptideranker_style_mooney2012_composition_v1,23954,IGPR,0.6679830952,known_positive,blinded_known_positive_spike,Salmo salar protein hydrolysate; https://doi.org/10.1002/jsfa.8908
+peptideranker_style_mooney2012_composition_v1,23979,PGAR,0.6679830952,known_positive,blinded_known_positive_spike,Salmo salar protein hydrolysate; https://doi.org/10.1002/jsfa.8908
+peptideranker_style_mooney2012_composition_v1,25811,YLVR,0.661792619,known_positive,blinded_known_positive_spike,hazelnut protein hydrolysate; https://www.sciencedirect.com/science/article/abs/pii/S1756464616303942
+peptideranker_style_mooney2012_composition_v1,28196,MFGPQ,0.6547261905,known_positive,blinded_known_positive_spike,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+peptideranker_style_mooney2012_composition_v1,30340,PGLPQ,0.647322381,known_positive,blinded_known_positive_spike,Tenebrio molitor protein hydrolysate; https://doi.org/10.26599/FSHW.2025.9250609
+peptideranker_style_mooney2012_composition_v1,31839,EAPLNPKANR,0.640667619,known_positive,blinded_known_positive_spike,Cangkuk fermented beef; https://doi.org/10.5713/ab.23.0433
+peptideranker_style_mooney2012_composition_v1,35589,LPGP,0.6262747619,digestome_known_positive,collagen:P02453:thermolysin_like,bovine collagen alpha-1(I); sp|P02453|CO1A1_BOVIN Collagen alpha-1(I) chain OS=Bos taurus OX=9913 GN=COL1A1 PE=1 SV=3
+peptideranker_style_mooney2012_composition_v1,35739,AEYLCEAC,0.626197381,known_positive,blinded_known_positive_spike,oyster hydrolysate; https://doi.org/10.3389/fnut.2022.981163
+peptideranker_style_mooney2012_composition_v1,36547,SPGTAF,0.6239553968,known_positive,blinded_known_positive_spike,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+peptideranker_style_mooney2012_composition_v1,37408,SAAL,0.6200842857,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,38167,RFLR,0.6171190476,known_positive,blinded_known_positive_spike,tuna meat hydrolysate; https://doi.org/10.1021/acs.jafc.6c03183
+peptideranker_style_mooney2012_composition_v1,39030,VLSGF,0.6151071429,known_positive,blinded_known_positive_spike,peony seed protein hydrolysate; https://www.sciencedirect.com/science/article/pii/S1756464622002213
+peptideranker_style_mooney2012_composition_v1,41861,TFTGA,0.6027261905,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,42689,YVLL,0.5977985714,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,44776,GVLY,0.5866557143,known_positive,blinded_known_positive_spike,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+peptideranker_style_mooney2012_composition_v1,44822,VLGA,0.5866557143,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,45072,HWS,0.5854493651,known_positive,blinded_known_positive_spike,peony seed protein hydrolysate; https://www.sciencedirect.com/science/article/pii/S1756464622002213
+peptideranker_style_mooney2012_composition_v1,45419,HLHT,0.5849533333,known_positive,blinded_known_positive_spike,pearl oyster meat hydrolysate; https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/
+peptideranker_style_mooney2012_composition_v1,47325,NDRP,0.5750485714,known_positive,blinded_known_positive_spike,soybean protein hydrolysate; https://doi.org/10.3390/foods11172667
+peptideranker_style_mooney2012_composition_v1,48428,TVLL,0.5680842857,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,48441,VTLL,0.5680842857,known_positive,blinded_known_positive_spike,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+peptideranker_style_mooney2012_composition_v1,49142,TLFGL,0.5631071429,known_positive,blinded_known_positive_spike,Takifugu flavidus hydrolysate; https://doi.org/10.3390/md21100522
+peptideranker_style_mooney2012_composition_v1,50548,RVR,0.552588254,known_positive,blinded_known_positive_spike,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+peptideranker_style_mooney2012_composition_v1,51335,LAK,0.5458303175,digestome_known_positive,milk:P02769:trypsin,bovine serum albumin; sp|P02769|ALBU_BOVIN Albumin OS=Bos taurus OX=9913 GN=ALB PE=1 SV=4
+peptideranker_style_mooney2012_composition_v1,51682,MFLG,0.5445357143,known_positive,blinded_known_positive_spike,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754
+peptideranker_style_mooney2012_composition_v1,53638,PW,0.5244890476,known_positive,blinded_known_positive_spike,maize germ protein hydrolysate; https://doi.org/10.1016/j.lwt.2023.115254
+peptideranker_style_mooney2012_composition_v1,55109,ICY,0.5032192063,digestome_known_positive,fish:Q9IB34:thermolysin_like,skipjack tuna myosin light chain 2; tr|Q9IB34|Q9IB34_KATPE Myosin light chain 2 OS=Katsuwonus pelamis OX=8226 GN=mlc2 PE=2 SV=1
+peptideranker_style_mooney2012_composition_v1,55302,GWA,0.5022906349,known_positive,blinded_known_positive_spike,pearl oyster meat hydrolysate; https://pmc.ncbi.nlm.nih.gov/articles/PMC6723713/
+peptideranker_style_mooney2012_composition_v1,55319,IVG,0.5022906349,known_positive,blinded_known_positive_spike,Cangkuk fermented beef; https://doi.org/10.5713/ab.23.0433
+peptideranker_style_mooney2012_composition_v1,55324,LGV,0.5022906349,known_positive,blinded_known_positive_spike,hemp seed protein hydrolysate; https://doi.org/10.1021/acs.jafc.7b04522
+peptideranker_style_mooney2012_composition_v1,57110,FWG,0.4601706349,known_positive,blinded_known_positive_spike,porcine liver and placenta hydrolysate; https://doi.org/10.3390/molecules30030754

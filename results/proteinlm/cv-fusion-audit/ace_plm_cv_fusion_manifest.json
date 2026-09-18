@@ -1,0 +1,47 @@
+{
+  "claim_boundary": "Parent-grouped cross-validation only. Full-panel best weights are exploratory and should be frozen before the next independent panel.",
+  "date": "2026-09-18",
+  "folds": 5,
+  "negative_label": "matched_decoy",
+  "positive_labels": [
+    "digestome_known_positive",
+    "known_positive"
+  ],
+  "repeats": 20,
+  "scenarios": [
+    {
+      "group_count": 52,
+      "label_counts": {
+        "digestome_known_positive": 3,
+        "known_positive": 49,
+        "matched_decoy": 4160
+      },
+      "path": "/tmp/ace-qc.jXpMGi/no-zero-plm/cv/all/esm2_8m.csv",
+      "rows": 4212,
+      "scenario_id": "esm2_8m"
+    },
+    {
+      "group_count": 52,
+      "label_counts": {
+        "digestome_known_positive": 3,
+        "known_positive": 49,
+        "matched_decoy": 4160
+      },
+      "path": "/tmp/ace-qc.jXpMGi/no-zero-plm/cv/all/esm2_35m.csv",
+      "rows": 4212,
+      "scenario_id": "esm2_35m"
+    },
+    {
+      "group_count": 52,
+      "label_counts": {
+        "digestome_known_positive": 3,
+        "known_positive": 49,
+        "matched_decoy": 4160
+      },
+      "path": "/tmp/ace-qc.jXpMGi/no-zero-plm/cv/all/esm2_150m.csv",
+      "rows": 4212,
+      "scenario_id": "esm2_150m"
+    }
+  ],
+  "seed": 20260830
+}
