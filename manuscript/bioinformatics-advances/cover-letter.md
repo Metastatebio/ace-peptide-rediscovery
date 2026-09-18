@@ -10,7 +10,7 @@ The central results combine prospective frozen validation with ProteinLM rescori
 
 The manuscript fits Bioinformatics Advances because it contributes an auditable sequence-analysis benchmark, evaluates machine-learning and ProteinLM-supported ranking of biological sequence data, and reports failure modes alongside positive validations. The validated claim is computational prioritization and rediscovery, not wet-lab potency, receptor binding, or therapeutic efficacy.
 
-Funding: none. Competing interests: Oğuzcan Ünver is affiliated with Metastate Bio; this affiliation is disclosed as a potential competing interest. Code and non-third-party derived study artifacts are available at https://github.com/Metastatebio/ace-peptide-rediscovery.
+Funding: none. Competing interests: Oğuzcan Ünver is affiliated with Metastate Bio; this affiliation is disclosed as a potential competing interest. Code and non-third-party derived study artifacts are available in the public v0.1.0 release at https://github.com/Metastatebio/ace-peptide-rediscovery/releases/tag/v0.1.0.
 
 Sincerely,
 

@@ -114,13 +114,13 @@ Not applicable.
 2. Lin Z, Akin H, Rao R, Hie B, Zhu Z, Lu W, et al. Evolutionary-scale prediction of atomic-level protein structure with a language model. Science. 2023;379:1123--1130. https://doi.org/10.1126/science.ade2574
 3. Mooney C, Haslam NJ, Pollastri G, Shields DC. Towards the improved discovery and design of functional peptides: common features of diverse classes permit generalized prediction of bioactivity. PLOS ONE. 2012;7:e45012. https://doi.org/10.1371/journal.pone.0045012
 4. Minkiewicz P, Iwaniak A, Darewicz M. BIOPEP-UWM database of bioactive peptides: current opportunities. International Journal of Molecular Sciences. 2019;20:5978. https://pmc.ncbi.nlm.nih.gov/articles/PMC6928608/
-5. Yang et al. ACE-inhibitory peptides from Larimichthys crocea protein. Molecules. 2024. https://doi.org/10.3390/molecules29051134
-6. Zhang et al. ACE-inhibitory peptides from Flammulina velutipes. Foods. 2025. https://doi.org/10.3390/foods14152619
-7. Takifugu flavidus ACE-inhibitory peptide study. Marine Drugs. 2023. https://doi.org/10.3390/md21100522
-8. Broccoli protein ACE-inhibitory peptide study. Journal of Agricultural and Food Chemistry. 2019. https://doi.org/10.1021/acs.jafc.9b01137
-9. Cangkuk fermented beef ACE-inhibitory peptide study. Animal Bioscience. 2024. https://doi.org/10.5713/ab.23.0433
-10. Porcine liver and placenta ACE-inhibitory peptide study. Molecules. 2025. https://doi.org/10.3390/molecules30030754
-11. Tenebrio molitor protein ACE-inhibitory peptide study. Food Science and Human Wellness. 2026. https://doi.org/10.26599/FSHW.2025.9250609
+5. Yang Z, Wang C, Huang B, Chen Y, Liu Z, Chen H, Chen J. Biodirected screening and preparation of Larimichthys crocea angiotensin-I-converting enzyme-inhibitory peptides by a combined in vitro and in silico approach. Molecules. 2024;29:1134. https://doi.org/10.3390/molecules29051134
+6. Zhang Y, Zhao X, Ma X, Li J, Ye X, Wang X, Zhang W, Yun J. Activity analysis and inhibition mechanism of four novel angiotensin I-converting enzyme inhibitory peptides prepared from Flammulina velutipes by enzymatic hydrolysis. Foods. 2025;14:2619. https://doi.org/10.3390/foods14152619
+7. Su Y, Chen S, Liu S, Wang Y, Chen X, Xu M, Cai S, Pan N, Qiao K, Chen B, Yang S, Liu Z. Affinity purification and molecular characterization of angiotensin-converting enzyme-inhibitory peptides from Takifugu flavidus. Marine Drugs. 2023;21:522. https://doi.org/10.3390/md21100522
+8. Dang Y, Zhou T, Hao L, Cao J, Sun Y, Pan D. In vitro and in vivo studies on the angiotensin-converting enzyme inhibitory activity peptides isolated from broccoli protein hydrolysate. Journal of Agricultural and Food Chemistry. 2019;67:6757--6764. https://doi.org/10.1021/acs.jafc.9b01137
+9. Mirdhayati I, Zain WNH, Fatah A, Yokoyama I, Arihara K. Purification of angiotensin converting enzyme inhibitory peptides and antihypertensive effect generated from Indonesian traditional fermented beef (Cangkuk). Animal Bioscience. 2024;37:1799--1808. https://doi.org/10.5713/ab.23.0433
+10. Pearman NA, Morris GA, Smith AM. Angiotensin-converting enzyme inhibitor activity of novel peptides derived from porcine liver and placenta. Molecules. 2025;30:754. https://doi.org/10.3390/molecules30030754
+11. Zou X, Liu M, Pan F, Chen H, Liu C, Fang X, Li X, Tian W, Zhou F. Identification and inhibition mechanisms of novel ACE inhibitory peptides from Tenebrio molitor protein based on peptidomics combined with AI tools. Food Science and Human Wellness. 2025. https://doi.org/10.26599/FSHW.2025.9250609
 
 ## Figure Legends
 
