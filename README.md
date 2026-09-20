@@ -1,5 +1,12 @@
 # ProteinLM-Augmented Blinded Rediscovery of Food-Derived ACE-Inhibitory Peptides
 
+> **Status — 2026-09-20:** This v0.1.x repository is an archived exploratory
+> analysis and is **not submission-ready**. It must not be cited as evidence
+> of independently validated PLM generalization, strong discrimination against
+> composition-preserving controls, peptide biological precision, or ACE
+> activity of newly proposed sequences. The historical result tables are
+> retained for auditability. See [STATUS.md](STATUS.md).
+
 This repository is the public reproducibility release for the accompanying computational manuscript. It contains the analysis code, frozen ranking recipes, post-unblinding v4/v5/v6 evaluation labels, manuscript-facing result tables, figures, and a release-verification script.
 
 The paper's claim is deliberately limited to leakage-controlled computational prioritization and rediscovery of literature-reported ACE-inhibitory peptides. It does not report new inhibition experiments, receptor binding, antihypertensive efficacy, or validated therapeutic candidates.
